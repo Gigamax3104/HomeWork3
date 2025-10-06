@@ -28,7 +28,7 @@ int main() {
 	Code2 = strrmv_digits(Code);
 
 	for (int i = 0; i < size;i++) {
-		cout << Code2 + i << flush;
+		cout << *(Code2 + i) << flush;
 	}
 }
 
