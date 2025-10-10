@@ -3,11 +3,13 @@
 #include	<cstring>
 using	namespace std;
 
+const int MAX_SIZE = 100;
+
 char* strrmv_digits(char* s);
 
 int main() {
 	int size = 0;
-	char Code[18];
+	char Code[100];
 	char* Code2;
 
 	do{
