@@ -9,7 +9,7 @@ char* strrmv_digits(char* s);
 
 int main() {
 	int size = 0;
-	char Code[100];
+	char Code[MAX_SIZE];
 	char* Code2;
 
 	do{
